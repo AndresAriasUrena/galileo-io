@@ -93,7 +93,7 @@ const About = () => {
         </div>
         <div>
           <h3 className="text-[30px] lg:text-[48px] text-center md:text-start leading-[45px] lg:leading-[67px] font-[600]">
-            Galileo Capital is regulated in Costa Rica and United States
+            Galileo Capital is fully regulated in the US
           </h3>
           <div className="flex items-center justify-center md:justify-start md:items-start relative">
             <button
