@@ -80,7 +80,7 @@ const About = () => {
       <div
         data-aos="fade-up"
         data-aos-delay="100"
-        className="bg-cover bg-center py-[4%] my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px] mt-12"
+        className="bg-cover bg-center py-[4%] my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px] mt-16"
         style={{
           backgroundImage: "url('/assets/bg-cta.png')",
         }}
@@ -105,20 +105,20 @@ const About = () => {
             {dropdownOpen && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
                 <a
-                  href="https://www.jotform.com/233520788042859"
+                  href="https://form.jotform.com/242172184154452"
                   className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  For USA Individuals
+                  For Individuals
                 </a>
                 <a
-                  href="https://www.jotform.com/240868739736171"
+                  href="https://form.jotform.com/242172269063455"
                   className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  For USA Business
+                  For Business
                 </a>
               </div>
             )}

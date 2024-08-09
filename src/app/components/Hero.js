@@ -76,20 +76,20 @@ const Hero = () => {
             {dropdownOpen1 && (
               <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
                 <a
-                  href="https://www.jotform.com/233520788042859"
+                  href="https://form.jotform.com/242172184154452"
                   className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  For USA Individuals
+                  For Individuals
                 </a>
                 <a
-                  href="https://www.jotform.com/240868739736171"
+                  href="https://form.jotform.com/242172269063455"
                   className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  For USA Business
+                  For Business
                 </a>
               </div>
             )}
@@ -129,7 +129,7 @@ const Hero = () => {
       <section className="flex px-[9%] flex-col h-[700px] lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-start justify-center">
         <div className="lg:w-[60%] space-y-8">
           <h2 className="text-[38px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
-            Cryptocurrency <br /> Done Right with
+            Digital assets<br /> Done Right with
           </h2>
           <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
           <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
@@ -148,20 +148,20 @@ const Hero = () => {
               {dropdownOpen2 && (
                 <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
                   <a
-                    href="https://www.jotform.com/233520788042859"
+                    href="https://form.jotform.com/242172184154452"
                     className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    For USA Individuals
+                    For Individuals
                   </a>
                   <a
-                    href="https://www.jotform.com/240868739736171"
+                    href="https://form.jotform.com/242172269063455"
                     className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    For USA Business
+                    For Business
                   </a>
                 </div>
               )}
