@@ -172,7 +172,7 @@ const Hero = () => {
               rel="noopener noreferrer"
             >
               <button className="border-[#28C0F5] border-2 hover:bg-[#28C0F5] duration-300 hover:text-white text-[#28C0F5] py-2 ml-4 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
-                Verify Email
+                Verify Identity
               </button>
             </a>
           </div>
