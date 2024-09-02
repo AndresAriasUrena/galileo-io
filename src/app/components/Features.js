@@ -92,7 +92,7 @@ const Features = () => {
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Regulatory Compliance
               </h5>
-              <p>Licensed and regulated in the US and Costa Rica.</p>
+              <p>Licensed and regulated in the US.</p>
             </div>
           </div>
           <div className="md:pl-[60px] lg:pl-4 flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">

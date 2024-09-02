@@ -71,8 +71,7 @@ const About = () => {
           <p className="pt-4 text-[15px] leading-[27px]">
             Galileo Capital's advanced technology and focus on
             security have allowed us to handle large volumes of
-            transactions with confidence. Regulatory compliance in the US and
-            Costa Rica is a big plus.
+            transactions with confidence. Regulatory compliance in the US is a big plus.
           </p>
         </div>
       </div>
