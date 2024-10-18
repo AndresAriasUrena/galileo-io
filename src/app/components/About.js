@@ -35,7 +35,7 @@ const About = () => {
         data-aos-delay="500"
         className="grid py-8 md:py-0 md:grid-cols-2 items-center gap-[12%]"
       >
-        <img src="/assets/fonts/What people are saying about us.svg" />
+        <img alt="" src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
           Everything you need to liquidate your crypto assets reliably.
         </p>
@@ -47,7 +47,7 @@ const About = () => {
         className="grid md:grid-cols-2 lg:grid-cols-3 gap-[4%] py-[12%]"
       >
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src="/assets/quotes.png" />
+          <img alt="" src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Since we started using Galileo Capital, our operations are
             much more efficient and safe. The integration was quick and the
@@ -57,7 +57,7 @@ const About = () => {
         </div>
 
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src="/assets/quotes.png" />
+          <img alt="" src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Galileo Capital has provided us with a complete solution to
             our cryptocurrency settlement needs. Your rates and
@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src="/assets/quotes.png" />
+          <img alt="" src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Galileo Capital's advanced technology and focus on
             security have allowed us to handle large volumes of

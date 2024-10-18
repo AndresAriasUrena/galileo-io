@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="bg-[#0B0A0C] px-[10%] pt-[3%]">
       <div className="flex flex-col md:flex-row justify-between items-center py-[5%]">
         <div className="flex md:w-[30%] mb-12 md:mb-0 text-start flex-col items-start">
-          <img src="/assets/logo-footer.png" />
+          <img alt="logo" src="/assets/logo-footer.png" />
           <p className="text-white/70 pt-6 text-[18px]">
             A new way to make the payments easy, reliable and secure.
           </p>
@@ -92,18 +92,22 @@ const Footer = () => {
 
         <div className="flex gap-4 items-center pt-[4%] lg:pt-0">
           <img
+            alt=""
             src="/assets/Icons/Facebook.svg"
             className="cursor-pointer hover:scale-110 duration-300 "
           />
           <img
+            alt=""
             src="/assets/Icons/Instagram.svg"
             className="cursor-pointer hover:scale-110 duration-300 "
           />
           <img
+            alt=""
             src="/assets/Icons/Twitter.svg"
             className="cursor-pointer hover:scale-110 duration-300"
           />
           <img
+            alt=""
             src="/assets/Icons/linkedin.svg"
             className="cursor-pointer hover:scale-110 duration-300"
           />

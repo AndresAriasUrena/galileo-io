@@ -20,7 +20,7 @@ const Service = () => {
         {/* <h2 className="text-white text-[45px] leading-[72px]">
           Guiding you through the whole process
         </h2> */}
-        <img src="/assets/fonts/Guiding you through the whole process.svg" />
+        <img alt="" src="/assets/fonts/Guiding you through the whole process.svg" />
         <p className="text-[18px] py-6 leading-[30px] text-white/70">
           Our team of blockchain and crypto experts is here to guide you. Plus,
           we handle all regulatory requirements on your behalf.
@@ -55,7 +55,7 @@ const Service = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="h-full">
-        <img src="/assets/img3.avif" />
+        <img alt="" src="/assets/img3.avif" />
       </div>
     </div>
   );

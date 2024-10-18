@@ -98,6 +98,7 @@ const Hero = () => {
 
         <div className="absolute top-5 right-4 lg:hidden">
           <img
+            alt=""
             onClick={() => setShow(!show)}
             src="/assets/Icons/menu.svg"
             className="h-10 w-10 text-white"
@@ -131,7 +132,7 @@ const Hero = () => {
           <h2 className="text-[38px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
             Digital assets<br /> Done Right with
           </h2>
-          <img src="/assets/fonts/Galileo capital.svg" className="w-full" />
+          <img alt="" src="/assets/fonts/Galileo capital.svg" className="w-full" />
           <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
             Safeguard Your Assets and Navigate the volatile world of crypto
             assets with our{" "}

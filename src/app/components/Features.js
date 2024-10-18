@@ -44,7 +44,7 @@ const Features = () => {
         className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-[3%] pt-[10%]"
       >
         <div className="space-y-8">
-          <img src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
+          <img alt="The Crypto Challenge Volatility & Security" src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
           <p className="text-[15px] md:text-[18px] leading-[23px] md:leading-[30px] text-white/70">
             While the ever-changing landscape of cryptocurrency presents great
             opportunities, the wild price swings and security risks can leave
@@ -83,7 +83,7 @@ const Features = () => {
 
         <div className="space-y-4">
           <div className="flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
-            <img src="/assets/Icons/icon1.png" />
+            <img alt="" src="/assets/Icons/icon1.png" />
             <div>
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Regulatory Compliance
@@ -92,7 +92,7 @@ const Features = () => {
             </div>
           </div>
           <div className="flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
-            <img src="/assets/Icons/icon2.png" />
+            <img alt="" src="/assets/Icons/icon2.png" />
             <div>
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Personalized Service
@@ -101,7 +101,7 @@ const Features = () => {
             </div>
           </div>
           <div className="flex gap-[5%] items-center hover-gradient p-2 md:p-4 rounded-[20px]">
-            <img src="/assets/Icons/icon3.png" />
+            <img alt="" src="/assets/Icons/icon3.png" />
             <div>
               <h5 className="text-[18px] md:text-[20px] leading-[26px] font-[600] pb-2">
                 Secure Transactions

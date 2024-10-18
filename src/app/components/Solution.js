@@ -17,6 +17,7 @@ const Solution = () => {
         <div className="grid pb-[15%] grid-cols-3 gap-[4%] justify-between">
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img
+              alt=""
               src="/assets/Icons/icon4.png"
               className="h-14 w-auto md:h-auto"
             />
@@ -26,6 +27,7 @@ const Solution = () => {
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img
+              alt=""
               src="/assets/Icons/icon5.png"
               className="h-14 w-auto md:h-auto"
             />
@@ -35,6 +37,7 @@ const Solution = () => {
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img
+              alt=""
               src="/assets/Icons/icon6.png"
               className="h-14 w-auto md:h-auto"
             />
@@ -43,13 +46,13 @@ const Solution = () => {
             </p>
           </div>
         </div>
-        <img src="/assets/fonts/Partner with Galileo Capital and experience the future of cryptocurrency liquidation..svg" />
+        <img alt="" src="/assets/fonts/Partner with Galileo Capital and experience the future of cryptocurrency liquidation..svg" />
       </div>
       <div
         data-aos="fade-up"
         className="lg:ml-0 w-[90%] pt-[8%] lg:pt-0 lg:w-[35%] mx-auto lg:mx-0"
       >
-        <img src="/assets/img1.avif" className="w-full h-auto" />
+        <img alt="" src="/assets/img1.avif" className="w-full h-auto" />
       </div>
     </div>
   );
