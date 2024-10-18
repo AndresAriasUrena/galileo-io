@@ -34,13 +34,6 @@ export default function RootLayout({ children }) {
             "name": "Galileo Capital",
             "url": "https://galileocapital.io/",
             "logo": "https://galileocapital.io/logo.svg",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+506-XXXXXXX",
-              "contactType": "Customer Service",
-              "areaServed": "CR",
-              "availableLanguage": "English"
-            },
             "sameAs": [
               "https://www.instagram.com/galileo.capital/"
             ]
