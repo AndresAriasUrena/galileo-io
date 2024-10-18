@@ -1,7 +1,7 @@
 "use client"; 
 import React, { useState } from "react";
 
-import HeroAnim from "../../../public/assets/lottie/hero-anim.json";
+import HeroAnim from "../assets/lottie/hero-anim.json";
 import Lottie from "react-lottie";
 
 const Hero = () => {

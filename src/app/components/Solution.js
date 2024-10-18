@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Icon4, Icon5, Icon6, PartnerWithGalileoFont, Img1 } from "../assets"; // Actualización de las importaciones
 
 const Solution = () => {
   useEffect(() => {
@@ -16,40 +17,34 @@ const Solution = () => {
       <div data-aos="fade-up" className="md:w-[80%] lg:w-[65%] mx-auto">
         <div className="grid pb-[15%] grid-cols-3 gap-[4%] justify-between">
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img
-              src="/assets/Icons/icon4.png"
-              className="h-14 w-auto md:h-auto"
-            />
+            <img src={Icon4} className="h-14 w-auto md:h-auto" alt="Icon 4" /> {/* Actualización del ícono */}
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
               Advanced Blockchain Technology
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img
-              src="/assets/Icons/icon5.png"
-              className="h-14 w-auto md:h-auto"
-            />
+            <img src={Icon5} className="h-14 w-auto md:h-auto" alt="Icon 5" /> {/* Actualización del ícono */}
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
               Secure Trading Algorithms
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
-            <img
-              src="/assets/Icons/icon6.png"
-              className="h-14 w-auto md:h-auto"
-            />
+            <img src={Icon6} className="h-14 w-auto md:h-auto" alt="Icon 6" /> {/* Actualización del ícono */}
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
               Robust Custody Agreements
             </p>
           </div>
         </div>
-        <img src="/assets/fonts/Partner with Galileo Capital and experience the future of cryptocurrency liquidation..svg" />
+        <img
+          src={PartnerWithGalileoFont}
+          alt="Partner with Galileo Capital"
+        /> {/* Actualización de la fuente */}
       </div>
       <div
         data-aos="fade-up"
         className="lg:ml-0 w-[90%] pt-[8%] lg:pt-0 lg:w-[35%] mx-auto lg:mx-0"
       >
-        <img src="/assets/img1.png" className="w-full h-auto" />
+        <img src={Img1} className="w-full h-auto" alt="Image 1" /> {/* Actualización de la imagen */}
       </div>
     </div>
   );
