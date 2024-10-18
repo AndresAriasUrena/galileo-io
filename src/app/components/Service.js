@@ -55,7 +55,7 @@ const Service = () => {
         </div>
       </div>
       <div data-aos="fade-up" className="h-full">
-        <img src="/assets/img3.png" />
+        <img src="/assets/img3.avif" />
       </div>
     </div>
   );

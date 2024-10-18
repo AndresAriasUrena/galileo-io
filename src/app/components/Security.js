@@ -11,7 +11,7 @@ const Security = () => {
   return (
     <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-start overflow-hidden gap-[3%] bg-[#09002a] px-[10%] pb-[8%] py-[50px] md:py-[5%] lg:space-y-0 md:space-y-8">
       <div data-aos="fade-up" className="md:block md:w-full mx-auto">
-        <img src="/assets/img2.png" className="w-full h-auto mx-auto mt-10" />
+        <img src="/assets/img2.avif" className="w-full h-auto mx-auto mt-10" />
       </div>
 
       <div

@@ -119,7 +119,7 @@ const Footer = () => {
             Design and Development by :
           </p>
           <img
-            src="/assets/isotipo.png"
+            src="/assets/isotipo.avif"
             alt="aurigital"
             className="h-[20px] w-[20px]"
           />

@@ -2,10 +2,10 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import ProcessAnim1 from "../assets/lottie/process1.json";
-import ProcessAnim2 from "../assets/lottie/process2.json";
-import ProcessAnim3 from "../assets/lottie/process3.json";
-import ProcessAnim4 from "../assets/lottie/process4.json";
+import ProcessAnim1 from "../../../public/assets/lottie/process1.json";
+import ProcessAnim2 from "../../../public/assets/lottie/process2.json";
+import ProcessAnim3 from "../../../public/assets/lottie/process3.json";
+import ProcessAnim4 from "../../../public/assets/lottie/process4.json";
 import Lottie from "react-lottie";
 
 const Process = () => {

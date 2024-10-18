@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { CtaAnim, PeopleSayingFont, Quotes, BgCta } from "../assets"; // Updated imports
+import CTAnim from "../../../public/assets/lottie/CTA-anim.json";
 import Lottie from "react-lottie";
 
 const About = () => {
@@ -19,7 +19,7 @@ const About = () => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: CtaAnim, // Updated animation import
+    animationData: CTAnim,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -35,7 +35,7 @@ const About = () => {
         data-aos-delay="500"
         className="grid py-8 md:py-0 md:grid-cols-2 items-center gap-[12%]"
       >
-        <img src={PeopleSayingFont} alt="What people are saying" /> {/* Updated image path */}
+        <img src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
           Everything you need to liquidate your crypto assets reliably.
         </p>
@@ -47,23 +47,31 @@ const About = () => {
         className="grid md:grid-cols-2 lg:grid-cols-3 gap-[4%] py-[12%]"
       >
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src={Quotes} alt="Quotes" /> {/* Updated image path */}
+          <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
-            Since we started using Galileo Capital, our operations are much more efficient and safe. The integration was quick and the Support team is always available to help us. I highly recommend your services.
+            Since we started using Galileo Capital, our operations are
+            much more efficient and safe. The integration was quick and the
+            Support team is always available to help us. I highly recommend
+            your services.
           </p>
         </div>
 
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src={Quotes} alt="Quotes" /> {/* Updated image path */}
+          <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
-            Galileo Capital has provided us with a complete solution to our cryptocurrency settlement needs. Your rates and competitive solutions and personalized customer service have made a big difference for our company.
+            Galileo Capital has provided us with a complete solution to
+            our cryptocurrency settlement needs. Your rates and
+            competitive solutions and personalized customer service have made a
+            big difference for our company.
           </p>
         </div>
 
         <div className="px-8 py-14 rounded-[20px] hover-gradient">
-          <img src={Quotes} alt="Quotes" /> {/* Updated image path */}
+          <img src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
-            Galileo Capital's advanced technology and focus on security have allowed us to handle large volumes of transactions with confidence. Regulatory compliance in the US is a big plus.
+            Galileo Capital's advanced technology and focus on
+            security have allowed us to handle large volumes of
+            transactions with confidence. Regulatory compliance in the US is a big plus.
           </p>
         </div>
       </div>
@@ -73,7 +81,7 @@ const About = () => {
         data-aos-delay="100"
         className="bg-cover bg-center py-[4%] my-[8%] md:my-0 flex flex-col md:flex-row items-center gap-[5%] p-4 rounded-[20px] mt-16"
         style={{
-          backgroundImage: `url(${BgCta})`, // Updated background image
+          backgroundImage: "url('/assets/bg-cta.avif')",
         }}
       >
         <div className="md:w-[30%]">
