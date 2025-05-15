@@ -134,7 +134,7 @@ const Hero = () => {
           </h2>
           <img alt="" src="/assets/fonts/Galileo capital.svg" className="w-full" />
           <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
-            Safeguard Your Assets and Navigate the volatile world of crypto
+            Safeguard Your Assets and Navigate the volatile world of digital
             assets with our{" "}
             <span className="font-[500]">secure and compliant</span> platform.
           </p>

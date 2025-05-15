@@ -37,7 +37,7 @@ const About = () => {
       >
         <img alt="" src="/assets/fonts/What people are saying about us.svg" />
         <p className="text-[18px] leading-[32px] text-white/70">
-          Everything you need to liquidate your crypto assets reliably.
+          Everything you need to liquidate your digital assets reliably.
         </p>
       </div>
 
@@ -60,7 +60,7 @@ const About = () => {
           <img alt="" src="/assets/quotes.png" />
           <p className="pt-4 text-[15px] leading-[27px]">
             Galileo Capital has provided us with a complete solution to
-            our cryptocurrency settlement needs. Your rates and
+            our digital assets settlement needs. Your rates and
             competitive solutions and personalized customer service have made a
             big difference for our company.
           </p>

@@ -44,12 +44,12 @@ const Features = () => {
         className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-[3%] pt-[10%]"
       >
         <div className="space-y-8">
-          <img alt="The Crypto Challenge Volatility & Security" src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
+          <img alt="The Digital Assets Challenge Volatility & Security" src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
           <p className="text-[15px] md:text-[18px] leading-[23px] md:leading-[30px] text-white/70">
-            While the ever-changing landscape of cryptocurrency presents great
+            While the ever-changing landscape of digital assets presents great
             opportunities, the wild price swings and security risks can leave
             your business exposed. Galileo Capital offers a safe and reliable
-            platform for managing your cryptocurrency assets.
+            platform for managing your digital assets.
           </p>
           <div className="relative inline-block">
             <button

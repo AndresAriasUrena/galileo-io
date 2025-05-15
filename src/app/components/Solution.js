@@ -15,14 +15,24 @@ const Solution = () => {
     >
       <div data-aos="fade-up" className="md:w-[80%] lg:w-[65%] mx-auto">
         <div className="grid pb-[15%] grid-cols-3 gap-[4%] justify-between">
-          <div className="flex flex-col text-center items-center gap-[20px]">
+          {/* <div className="flex flex-col text-center items-center gap-[20px]">
             <img
               alt=""
-              src="/assets/Icons/icon4.png"
+              src="/assets/Icons/icon1.png"
               className="h-14 w-auto md:h-auto"
             />
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
-              Advanced Blockchain Technology
+              International Wire Transfers
+            </p>
+          </div> */}
+          <div className="flex flex-col text-center items-center gap-[20px]">
+            <img
+              alt=""
+              src="/assets/Icons/icon6.png"
+              className="h-14 w-auto md:h-auto"
+            />
+            <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
+              Secure FBO Escrow Services
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
@@ -32,13 +42,13 @@ const Solution = () => {
               className="h-14 w-auto md:h-auto"
             />
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
-              Secure Trading Algorithms
+              Instant Cross-Border Payments
             </p>
           </div>
           <div className="flex flex-col text-center items-center gap-[20px]">
             <img
               alt=""
-              src="/assets/Icons/icon6.png"
+              src="/assets/Icons/icon4.png"
               className="h-14 w-auto md:h-auto"
             />
             <p className="text-[15px] md:text-[20px] lg:text-[23px] leading-[23px] md:leading-[38px]">
