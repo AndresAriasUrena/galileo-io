@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CTAnim from "../../../public/assets/lottie/CTA-anim.json";
+import CTAnim from "../../../public/assets/lottie/CTA-anim2.json";
 import Lottie from "react-lottie";
 
 const About = () => {
@@ -91,7 +91,7 @@ const About = () => {
           />
         </div>
         <div>
-          <h3 className="text-[30px] lg:text-[48px] text-center md:text-start leading-[45px] lg:leading-[67px] font-[600]">
+          <h3 className="text-[30px] lg:text-[48px] text-center md:text-start leading-[45px] lg:leading-[67px] font-[600] pt-2 ">
             Galileo Capital is fully regulated in the US
           </h3>
           <div className="flex items-center justify-center md:justify-start md:items-start relative">
