@@ -41,8 +41,8 @@ const Hero = () => {
   };
 
   return (
-    <div id="home" className="relative text-white gradient-background py-[5%] overflow-hidden">
-      <header className="flex justify-between w-full items-start py-4 lg:py-8">
+    <div id="home" className="relative text-white gradient-background py-[2%] overflow-hidden">
+      <header className="flex justify-between w-full items-center py-2 lg:py-4">
         <div className="mx-auto md:mx-[5%]">
           <img
             src="/assets/logo.png"
@@ -127,30 +127,45 @@ const Hero = () => {
         </div>
       </header>
 
-      <section className="flex px-[5%] flex-col h-auto lg:h-[700px] lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[5%] items-start justify-center">
-        <div className="lg:w-[60%] space-y-8">
-          <h2 className="text-[38px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
-            Digital assets<br /> Done Right with
+      <section className="flex px-[5%] flex-col h-auto lg:h-[650px] lg:flex-row gap-[2%] 2xl:gap-[5%] pt-[2%] lg:pt-[3%] items-center justify-between">
+        <div className="lg:w-[55%] space-y-6 lg:space-y-8">
+          {/* SOLUCIÓN: Texto con control específico de saltos de línea */}
+          <h2 className="text-[38px] md:text-[68px] font-[600] leading-[60px] lg:leading-[100px] whitespace-nowrap md:whitespace-normal">
+            <span className="block md:inline">Asset management</span>
+            <br className="hidden md:block" />
+            <span className="block md:inline">Done Right with</span>
           </h2>
-          <img alt="" src="/assets/fonts/Galileo capital.svg" className="w-full" />
-          <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px]">
+          
+          {/* Alternativa con más control */}
+          {/* <h2 className="text-[38px] md:text-[72px] font-[600] leading-[60px] lg:leading-[100px]">
+            <div className="flex flex-col md:block">
+              <span>Asset management</span>
+              <br />
+              <span>Done Right with</span>
+            </div>
+          </h2> */}
+          
+          <img alt="Galileo Capital" src="/assets/fonts/Galileo capital.svg" className="w-full max-w-[600px]" />
+          
+          <p className="text-sm md:text-[23px] lg:text-[27px] font-[300] leading-[28px] md:leading-[38px] max-w-[90%] md:max-w-full">
             Safeguard Your Assets and Navigate the volatile world of digital
             assets with our{" "}
             <span className="font-[500]">secure and compliant</span> platform.
           </p>
-          <div>
+          
+          <div className="flex flex-col sm:flex-row gap-4">
             <div className="relative inline-block">
               <button
                 onClick={toggleDropdown2}
-                className="bg-[#FCF0F8] hover:bg-[#28C0F5] duration-300 hover:text-white text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]"
+                className="bg-[#FCF0F8] hover:bg-[#28C0F5] duration-300 hover:text-white text-black py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500] w-full sm:w-auto"
               >
                 Get Started
               </button>
               {dropdownOpen2 && (
-                <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10">
+                <div className="absolute top-full mt-2 bg-white rounded-lg shadow-lg z-10 left-0">
                   <a
                     href="https://form.jotform.com/242172184154452"
-                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
+                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white whitespace-nowrap"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -158,7 +173,7 @@ const Hero = () => {
                   </a>
                   <a
                     href="https://form.jotform.com/242172269063455"
-                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white"
+                    className="block px-4 py-2 text-black hover:bg-[#28C0F5] hover:text-white whitespace-nowrap"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -172,14 +187,25 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="border-[#28C0F5] border-2 hover:bg-[#28C0F5] duration-300 hover:text-white text-[#28C0F5] py-2 ml-4 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500]">
+              <button className="border-[#28C0F5] border-2 hover:bg-[#28C0F5] duration-300 hover:text-white text-[#28C0F5] py-2 md:py-4 px-6 md:px-9 rounded-full text-[15px] md:text-[17px] font-[500] w-full sm:w-auto">
                 Verify Identity
               </button>
             </a>
           </div>
         </div>
-        <div className="w-full md:w-auto mx-auto md:h-[85%]">
-          <Lottie options={defaultOptions} />
+        <div className="w-full mx-auto flex justify-center items-center lg:w-[45%] xl:w-[50%]">
+          <div className="w-full h-full min-h-[400px] lg:min-h-[500px]">
+            <Lottie 
+              options={defaultOptions} 
+              style={{
+                width: '100%',
+                height: '100%',
+                minWidth: '400px',
+                maxWidth: '600px',
+                margin: '0 auto'
+              }}
+            />
+          </div>
         </div>
       </section>
     </div>

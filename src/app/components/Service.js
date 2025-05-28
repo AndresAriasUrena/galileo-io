@@ -22,7 +22,7 @@ const Service = () => {
         </h2> */}
         <img alt="" src="/assets/fonts/Guiding you through the whole process.svg" />
         <p className="text-[18px] py-6 leading-[30px] text-white/70">
-          Our team of blockchain and digital assets experts is here to guide you. Plus,
+          Our team of asset management experts is here to guide you. Plus,
           we handle all regulatory requirements on your behalf.
         </p>
         <div className="relative inline-block">

@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Galileo Capital",
-  description: "Navigate the volatile world of digital assets with our secure and compliant platform",
+  description: "Navigate the volatile world of assets management with our secure and compliant platform",
 };
 
 export default function RootLayout({ children }) {

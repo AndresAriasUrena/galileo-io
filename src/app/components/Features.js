@@ -46,10 +46,10 @@ const Features = () => {
         <div className="space-y-8">
           <img alt="The Digital Assets Challenge Volatility & Security" src="/assets/fonts/The Crypto Challenge_ Volatility & Security.svg" />
           <p className="text-[15px] md:text-[18px] leading-[23px] md:leading-[30px] text-white/70">
-            While the ever-changing landscape of digital assets presents great
+            While the ever-changing landscape of asset management presents great
             opportunities, the wild price swings and security risks can leave
             your business exposed. Galileo Capital offers a safe and reliable
-            platform for managing your digital assets.
+            platform for managing your assets.
           </p>
           <div className="relative inline-block">
             <button
@@ -107,7 +107,7 @@ const Features = () => {
                 Secure Transactions
               </h5>
               <p>
-                Advanced blockchain technology and secure trading algorithms.
+                Advanced technology and secure trading algorithms.
               </p>
             </div>
           </div>
